@@ -14,13 +14,14 @@ body {
 }
 
 .correctAnswer {
-  color: #fef6e4;
-  background: #8bd3dd;
+
+  background: #2cb67d;
   padding: 1rem;
+  color: #fff;
 }
 
 .correctAnswer:after {
-  background: #8bd3dd;
+  background: #2cb67d;
   color: #001858;
   visibility: visible;
   position: relative;
@@ -30,13 +31,13 @@ body {
 }
 
 .incorrectAnswer {
-  background: #f582ae;
-  color: #fef6e4;
+  background: #ef4565;
   padding: 1rem;
+  color:#fff;
 }
 
 .incorrectAnswer:after {
-  background: #f582ae;
+  background: #ef4565;
   color: #001858;
   visibility: visible;
   position: relative;

@@ -2,8 +2,6 @@ export const data = [
 
   {
 
-  
-   
     "q": "Select the deductive debugging process steps from the lists: 1-Use elimination process, 2-Prove remaining hypothesis, 3-Enumerate possible causes, 4-Refine remaining hypothesis, 5-Collect more data, 6-Fix the error ",
     "c": [
       "1,2,3,4,5,6",
@@ -13,28 +11,8 @@ export const data = [
       "3,1,4,2,6,5"
     
  },
- {
-   
-    "q": "Indicate if the following statements about module testing is true or false. Test cases are supplemented by applying black-box methods to the module's specification.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": 
-       "T"
-    
- },
- {
- 
-    "q": "Indicate if the following statements about module testing is true or false. Module's logic is analyzed using the white-box methods.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": 
-       "T"
-    
- },
+
+
  {
    
     "q": "The only rule in top-down testing is that when selecting the next module for testing, it must be eligible to be the next module, with at least one of the module's subordinate (calling) modules previously tested.",
@@ -58,6 +36,18 @@ export const data = [
        "White-box tester"
     
  },
+
+ {
+ 
+   "q": "Indicate if the following statements about module testing is true or false. Module's logic is analyzed using the white-box methods.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "What is the best way to document and keep track of test cases?",
     "c": [
@@ -70,6 +60,17 @@ export const data = [
        "A test case management system"
     
  },
+ {
+   
+   "q": "Indicate if the following statements about module testing is true or false. Test cases are supplemented by applying black-box methods to the module's specification.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Occurs when the number of received parameters are not equal to the number of sent arguments",
     "c": [
@@ -102,9 +103,9 @@ export const data = [
        "System test",
        "Function test"
     ],
-    "a": [
+    "a": 
        "Installation test"
-    ]
+    
  },
  {
     "q": "Which statement matches the transaction section of the business layer testing area.",
@@ -113,9 +114,9 @@ export const data = [
        "Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verification's, and so on",
        "Tests whether the application meets documented operational specifications"
     ],
-    "a": [
+    "a": 
        "Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verification's, and so on"
-    ]
+    
  },
  {
     "q": "Which test case design technique is based on writing test cases around probable types of errors?",
@@ -125,9 +126,9 @@ export const data = [
        "Boundary value analysis",
        "Error guessing"
     ],
-    "a": [
+    "a": 
        "Error guessing"
-    ]
+    
  },
  {
     "q": "What is an advantage of incremental testing?",
@@ -137,9 +138,9 @@ export const data = [
        "Programming errors are detected earlier",
        "It uses less machine time"
     ],
-    "a": [
+    "a": 
        "Programming errors are detected earlier"
-    ]
+    
  },
  {
     "q": "What must a black-box tester focus on?",
@@ -149,9 +150,9 @@ export const data = [
        "Expected outputs of the program, but not every input",
        "What a program is supposed to do and who it is for"
     ],
-    "a": [
+    "a": 
        "What a program is supposed to do and who it is for"
-    ]
+    
  },
  {
     "q": "Which statement matches the Data validation section of the business layer testing area.",
@@ -160,9 +161,9 @@ export const data = [
        "Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verifications, and so on",
        "Tests whether the application meets documented operational specifications"
     ],
-    "a": [
+    "a": 
        "Tests to detect errors in knowledge collected from customers"
-    ]
+    
  },
  {
     "q": "______ is a test case design technique that produces test cases based on intuitive and expert knowledge of test team members for defining potential software errors and facilitating efficient test case design.",
@@ -171,24 +172,19 @@ export const data = [
        "Logic coverage",
        "Error guessing"
     ],
-    "a": [
+    "a": 
        "Error guessing"
-    ]
+    
  },
  {
-    "q": "Select the categories of the completion criteria.(choose three)",
+    "q": "Select the categories of the completion criteria:Base completion on the use of specific test-case design methodologies, Examine the curve of number of errors found per unit time during the test phase, State the completion requirements in positive terms",
     "c": [
-       "Base completion on the use of specific test-case design methodologies",
-       "Stop after the scheduled time for testing expires.",
-       "Examine the curve of number of errors found per unit time during the test phase",
-       "Stop when the test cases are successful",
-       "State the completion requirements in positive terms"
+      "T",
+      "F"
     ],
-    "a": [
-       "Base completion on the use of specific test-case design methodologies",
-       "Examine the curve of number of errors found per unit time during the test phase",
-       "State the completion requirements in positive terms"
-    ]
+    "a": 
+       "T"
+    
  },
  {
     "q": "Which Agile methodology matches this statement:<P>Adapts RUP in which user choose the practices, such as use cases or team programming that fits the project",
@@ -198,9 +194,9 @@ export const data = [
        "Essential unified process",
        "Dynamic system development method"
     ],
-    "a": [
+    "a": 
        "Essential unified process"
-    ]
+    
  },
  {
     "q": "Which of the following is a brute-force debugging technique?",
@@ -210,22 +206,21 @@ export const data = [
        "Dumping memory locations",
        "Backtracking"
     ],
-    "a": [
+    "a": 
        "Dumping memory locations"
-    ]
+    
  },
  {
-    "q": "Select the descriptions that as associated with Installation testing. (choose two)",
+    "q": "Select the descriptions that as associated with Installation testing (pick number): 1. It compares the initial requirements of the program to its end user current needs, 2. It checks test cases to ensure that compatible set of options have been selected, 3. It is performed by the program's customer or end user, 4. Its test cases are developed by the organization that produced the system.",
     "c": [
-       "It compares the initial requirements of the program to its end user current needs.",
-       "It checks test cases to ensure that compatible set of options have been selected.",
-       "It is performed by the program's customer or end user.",
-       "Its test cases are developed by the organization that produced the system."
+      "1,2",
+      "3,4",
+      "1,3",
+      "2,4"
     ],
-    "a": [
-       "It checks test cases to ensure that compatible set of options have been selected.",
-       "Its test cases are developed by the organization that produced the system."
-    ]
+    "a": 
+          "2,4"
+      
  },
  {
     "q": "Which debugging method looks at a reverse execution of the program?",
@@ -235,9 +230,9 @@ export const data = [
        "Debugging by testing",
        "Brute-force debugging"
     ],
-    "a": [
+    "a": 
        "Debugging by backtracking"
-    ]
+    
  },
  {
     "q": "Involves execution of all the executable statements in the source code at least once",
@@ -248,9 +243,9 @@ export const data = [
        "Condition",
        "Descision/condition"
     ],
-    "a": [
+    "a": 
        "Statement"
-    ]
+    
  },
  {
     "q": "Code-level tests that are concerned with the interaction between objects are best created by the _________.",
@@ -260,9 +255,9 @@ export const data = [
        "project manager",
        "white-box engineer"
     ],
-    "a": [
+    "a": 
        "white-box engineer"
-    ]
+    
  },
  {
     "q": "Select the description that matches the testing challenge for an internet based application facing a Security challenge.",
@@ -271,9 +266,9 @@ export const data = [
        "Includes cost related issues and tracking customer profiles",
        "Includes internationalization issues such as currency conversion"
     ],
-    "a": [
+    "a": 
        "Includes protection of information such as customers' credit card from hackers"
-    ]
+    
  },
  {
     "q": "What is the most important consideration when deciding on a bug base?",
@@ -283,9 +278,9 @@ export const data = [
        "It makes use of spreadsheets for proper tracking",
        "It connects with your test case management system"
     ],
-    "a": [
+    "a": 
        "It is simple and intuitive so users can easily report bugs"
-    ]
+    
  },
  {
     "q": "Usability testing is also called user acceptance testing.",
@@ -293,57 +288,53 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
+ 
  {
-    "q": "True or False: Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected.",
+    "q": "Select the statements that match the Extreme acceptance testing type (pick number): 1. All code modules must have primary tests before coding begins, 2. Customers creates test cases during the design/planning phases, 3. It determines whether the application meets its functional and usable requirements, 4. The primary tests must be defined and created before coding the module.",
     "c": [
-       "T",
-       "F"
+      "3,2",
+      "1,2",
+      "3,4"
     ],
-    "a": [
-       "T"
-    ]
+    "a": 
+          "3,2"
+      
  },
+
  {
-    "q": "Select the statements that match the Extreme acceptance testing type (choose two)",
-    "c": [
-       "All code modules must have primary tests before coding begins.",
-       "Customers creates test cases during the design/planning phases.",
-       "It determines whether the application meets its functional and usable requirements.",
-       "The primary tests must be defined and created before coding the module."
-    ],
-    "a": [
-       "It determines whether the application meets its functional and usable requirements.",
-       "Customers creates test cases during the design/planning phases."
-    ]
- },
+   "q": "True or False: Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Indicate if the given statements about error-locating principles is true or false.",
     "c": [
        "True: Talk about the problem with someone else to discover the solution.",
        "False: Talk about the problem with someone else to discover the solution."
     ],
-    "a": [
+    "a": 
       "True: Talk about the problem with someone else to discover the solution.",
-    ]
+    
  },
  {
-    "q": "Select the error-reporting techniques (choose three)",
+    "q": "Select the error-reporting techniques (pick number): 1. Fix the complete error, not just one of its symptom, 2. Code inspection is done by the project analyst after implementing an error correction, 3. Probability of fixes being correct must be made directly proportional to the size of the code, 4. Error corrections must be well tested in the original program, 5. Monitor all parts which are nearby to the place of detected error.",
     "c": [
-       "Fix the complete error, not just one of its symptom.",
-       "Code inspection is done by the project analyst after implementing an error correction.",
-       "Probability of fixes being correct must be made directly proportional to the size of the code.",
-       "Error corrections must be well tested in the original program.",
-       "Monitor all parts which are nearby to the place of detected error."
+      "1,4,5",
+      "2,4,5"
     ],
-    "a": [
-       "Fix the complete error, not just one of its symptom.",
-       "Error corrections must be well tested in the original program.",
-       "Monitor all parts which are nearby to the place of detected error."
-    ]
+    "a": 
+          "1,4,5",
+          
+      
  },
  {
     "q": "Indicate if the given statements about agile testing is true or false.<P>It relies on automated testing because the development cycles are long.",
@@ -351,30 +342,12 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
- {
-    "q": "Videotaping a user test and using a think-aloud protocol can provide excellent data on software usability and user perceptions about the application.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "Testing each module independently and then combining the modules to form the program is called nonincremental testing.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
+
  {
     "q": "Select the correct description of the appropriate testing tiers for the business layer",
     "c": [
@@ -382,9 +355,9 @@ export const data = [
        "Verifies that graphics have the correct resolution and size.",
        "Ensures that data is collected correctly."
     ],
-    "a": [
+    "a": 
        "Ensures that data is collected correctly."
-    ]
+    
  },
  {
     "q": "True or False: A bug base is a system for keeping track of every bug logged in a database system.",
@@ -392,9 +365,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Identify the testing processes that make up the Function test part of the development phase",
@@ -404,10 +377,20 @@ export const data = [
        "External specification: It defines the exact representation of the program to users.",
        "System design: It lays down the design principles of the system."
     ],
-    "a": [
+    "a": 
        "External specification: It defines the exact representation of the program to users."
-    ]
+    
  },
+ {
+   "q": "Videotaping a user test and using a think-aloud protocol can provide excellent data on software usability and user perceptions about the application.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Comes when calculations among variables include inconsistent data",
     "c": [
@@ -417,9 +400,9 @@ export const data = [
        "Data declaration",
        "Input/Output"
     ],
-    "a": [
+    "a": 
        "Computation"
-    ]
+    
  },
  {
     "q": "During a code inspection the moderator narrates, statement by statement, the logic of the program.",
@@ -427,9 +410,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Which area of an application is being tested when a tester confirms that all links point to valid files or websites?",
@@ -439,22 +422,21 @@ export const data = [
        "Data",
        "Presentation"
     ],
-    "a": [
+    "a": 
        "Presentation"
-    ]
+    
  },
  {
-    "q": "Select the statements that match Top-down testing. (choose two)",
+    "q": "Select the statements that match Top-down testing (pick number): 1. Creates test conditions and concludes test results easily, 2. Conducts testing from main module to sub module, 3. Finds difficulty in test case representation in stubs, before the I/O function addition, 4. Conducts testing from sub module to main module",
     "c": [
-       "Creates test conditions and concludes test results easily",
-       "Conducts testing from main module to sub module",
-       "Finds difficulty in test case representation in stubs, before the I/O function addition",
-       "Conducts testing from sub module to main module"
+      "3,4",
+      "1,2",
+      "2,3"
+      
     ],
-    "a": [
-       "Finds difficulty in test case representation in stubs, before the I/O function addition",
-       "Conducts testing from main module to sub module"
-    ]
+    "a": 
+      "3,4"
+     
  },
  {
     "q": "Indicate if given statement about presentation layer testing is true or false<P>It consists of finding errors in the GUI, or front end, of an application.",
@@ -462,22 +444,22 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
-    "q": "Select the descriptions that as associated with Acceptance testing. (choose two)",
+    "q": "Select the descriptions that as associated with Acceptance testing (pick number): 1. It is performed by the program's customer or end user, 2. It compares the initial requirements of the program to its end user current needs, 3. Its test cases are developed by the organization that produced the system, 4. It checks test cases to ensure that compatible set of options have been selected.",
     "c": [
-       "It is performed by the program's customer or end user.",
-       "It compares the initial requirements of the program to its end user current needs.",
-       "Its test cases are developed by the organization that produced the system.",
-       "It checks test cases to ensure that compatible set of options have been selected."
+      "2,1",
+      "1,3",
+      "2,4"
+     
     ],
-    "a": [
-       "It compares the initial requirements of the program to its end user current needs.",
-       "It is performed by the program's customer or end user."
-    ]
+    "a": 
+      "2,1"
+       
+    
  },
  {
     "q": "Which test will show that a program does not match its external specifications?",
@@ -487,10 +469,20 @@ export const data = [
        "Acceptance test",
        "System test"
     ],
-    "a": [
+    "a": 
        "Function test"
-    ]
+    
  },
+ {
+   "q": "Testing each module independently and then combining the modules to form the program is called nonincremental testing.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Which step in the software development process translates requirements into specific objectives?",
     "c": [
@@ -499,9 +491,9 @@ export const data = [
        "Objectives",
        "System design"
     ],
-    "a": [
+    "a": 
        "Objectives"
-    ]
+    
  },
  {
     "q": "Arises if all the used files are not opened and closed after use",
@@ -512,9 +504,9 @@ export const data = [
        "Data declaration",
        "Input/Output"
     ],
-    "a": [
+    "a": 
        "Input/Output"
-    ]
+    
  },
  {
     "q": "Indicate if given statement about presentation layer testing is true or false<P>It involves checking the human-interface element of a website.",
@@ -522,9 +514,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Checks that each state in a decision in the program takes all possible outcomes at least once",
@@ -535,9 +527,9 @@ export const data = [
        "Statement",
        "Condition"
     ],
-    "a": [
+    "a": 
        "Condition"
-    ]
+    
  },
  {
     "q": "Select the description that matches the e-commerce architecture tier for tier 3:",
@@ -546,9 +538,9 @@ export const data = [
        "Focuses on storing and retrieving data from the data source",
        "Runs the software to model user business processes"
     ],
-    "a": [
+    "a": 
        "Focuses on storing and retrieving data from the data source"
-    ]
+    
  },
  {
     "q": "True or False: When the testing is focused on how the application behaves at a code level, a white-box tester should create the tests.",
@@ -556,37 +548,22 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
+ 
  {
-    "q": "Indicate if the given statements about error-locating principles is true or false.<P>Keep debugging tools on the first priority.",
+    "q": "Select the possibilities of carrier's web proxy or transcoder (pick number): 1. Encryption of traffic for privacy and security, 2. Data compression for better throughput, 3. Access obstruction to certain high-bandwidth sites, 4. HTML headers and other metadata exclusion from Web pages that an application might use, 5. Transformation or transcode of content into WAP or HTTP, 6. Transformation or transcode of content into FTP",
     "c": [
-       "T",
-       "F"
+      "1,2,3,4,5",
+      "1,3,4,5,6"
+      
     ],
-    "a": [
-       "F"
-    ]
- },
- {
-    "q": "Select the possibilities of carrier's web proxy or transcoder. (choose five)",
-    "c": [
-       "Encryption of traffic for privacy and security",
-       "Data compression for better throughput",
-       "Access obstruction to certain high-bandwidth sites",
-       "HTML headers and other metadata exclusion from Web pages that an application might use",
-       "Transformation or transcode of content into WAP or HTTP",
-       "Transformation or transcode of content into FTP"
-    ],
-    "a": [
-       "Encryption of traffic for privacy and security",
-       "Data compression for better throughput",
-       "Access obstruction to certain high-bandwidth sites",
-       "HTML headers and other metadata exclusion from Web pages that an application might use",
-       "Transformation or transcode of content into WAP or HTTP"
-    ]
+    "a": 
+      "1,2,3,4,5"
+      
+    
  },
  {
     "q": "Evaluates each decision for all the combinations of conditions",
@@ -597,10 +574,20 @@ export const data = [
        "Descision/condition",
        "Condition"
     ],
-    "a": [
+    "a": 
        "Multiple-Condition"
-    ]
+    
  },
+ {
+   "q": "Indicate if the given statements about error-locating principles is true or false.<P>Keep debugging tools on the first priority.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "What key best practice brings the development process together in order to meet the deliverable deadline?",
     "c": [
@@ -609,9 +596,9 @@ export const data = [
        "Having clearly defined goals for every milestone",
        "Making hard decisions regarding the direction of development"
     ],
-    "a": [
+    "a": 
        "Having clearly defined goals for every milestone"
-    ]
+    
  },
  {
     "q": "Indicate if the following statements about module testing is true or false. Only the module specifications are required while designing the module test cases.",
@@ -619,9 +606,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "What type of test compares the program to its initial requirements and the current needs of its end users?",
@@ -631,9 +618,9 @@ export const data = [
        "Unit test",
        "Acceptance test"
     ],
-    "a": [
+    "a": 
        "Acceptance test"
-    ]
+    
  },
  {
     "q": "Follows that every condition in a decision and every decision in the program takes all possible outcomes at least once",
@@ -644,9 +631,9 @@ export const data = [
        "Condition",
        "Decision"
     ],
-    "a": [
+    "a": 
        "Descision/condition"
-    ]
+    
  },
  {
     "q": "What is an advantage to using an emulator when device testing?",
@@ -656,9 +643,9 @@ export const data = [
        "It is cost-effective",
        "It can test the code base once"
     ],
-    "a": [
+    "a": 
        "It is cost-effective"
-    ]
+    
  },
  {
     "q": "What is the key to successful higher-order testing?",
@@ -668,9 +655,9 @@ export const data = [
        "Appropriate system testing",
        "Consistent and well-planned testing"
     ],
-    "a": [
+    "a": 
        "Consistent and well-planned testing"
-    ]
+    
  },
  {
     "q": "Usability testing involves actual users or customers of the product.",
@@ -678,9 +665,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which layer of an internet application houses data used by the application or collected from the end user?",
@@ -690,9 +677,9 @@ export const data = [
        "Business",
        "Presentation"
     ],
-    "a": [
+    "a": 
        "Data"
-    ]
+    
  },
  {
     "q": "True or False: The goal of automation is to completely eliminate the need for a human to participate in the testing process.",
@@ -700,9 +687,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Which duty is a responsibility of the code inspection team moderator?",
@@ -712,9 +699,9 @@ export const data = [
        "Assigning someone to schedule the inspection",
        "Recording all errors found"
     ],
-    "a": [
+    "a": 
        "Recording all errors found"
-    ]
+    
  },
  {
     "q": "True or False: A bug matrix is used to identify the issues that do not require a developer's attention.",
@@ -722,9 +709,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Which test case methodology should be used for a specification that contains combinations of input conditions?",
@@ -734,9 +721,9 @@ export const data = [
        "Cause-effect graphing",
        "Error guessing"
     ],
-    "a": [
+    "a": 
        "Cause-effect graphing"
-    ]
+    
  },
  {
     "q": "True or False: In white-box testing, the tester is not concerned about the internal behavior and structure of a program.",
@@ -744,9 +731,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Select the description that matches the e-commerce architecture tier for tier 1:",
@@ -755,9 +742,9 @@ export const data = [
        "Provides the visual content to the end user",
        "Runs the software to model user business processes"
     ],
-    "a": [
+    "a": 
        "Provides the visual content to the end user"
-    ]
+    
  },
  {
     "q": "Which type of test would reveal that the program as a whole either meets or doesn't meet its objectives?",
@@ -767,22 +754,20 @@ export const data = [
        "Acceptance test",
        "Integration test"
     ],
-    "a": [
+    "a": 
        "System test"
-    ]
+    
  },
  {
-    "q": "Select the descriptions that match Desk Checking (choose two)",
+    "q": "Select the descriptions that match Desk Checking (pick number): 1. Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs, 2. Follows undisciplined process of testing and finding errors, 3. Evaluates anonymous programs for their overall quality, maintainability, and so on, 4. Selects a programmer to serve as the administrator of a process",
     "c": [
-       "Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs",
-       "Follows undisciplined process of testing and finding errors",
-       "Evaluates anonymous programs for their overall quality, maintainability, and so on",
-       "Selects a programmer to serve as the administrator of a process"
+      "1,2",
+      "3,4",
+
     ],
-    "a": [
-       "Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs",
-       "Follows undisciplined process of testing and finding errors"
-    ]
+    "a": 
+      "1,2"
+      
  },
  {
     "q": "It provides the entry point into the application.",
@@ -792,22 +777,19 @@ export const data = [
        "assertFalse()",
        "checkArgs()"
     ],
-    "a": [
+    "a": 
        "main()"
-    ]
+    
  },
  {
-    "q": "Describe Black-box testing (choose two)",
+    "q": "Describe Black-box testing (pick number): 1. Requires programming and implementation knowledge, 2. Exhaustive path testing is one of its type of testing technique, 3. Exhaustive input testing is one of its type of testing technique, 4. Internal structure or design implementation is not known to the tester",
     "c": [
-       "Requires programming and implementation knowledge",
-       "Exhaustive path testing is one of its type of testing technique",
-       "Exhaustive input testing is one of its type of testing technique",
-       "Internal structure or design implementation is not known to the tester"
+      "4,3",
+      "1,2"
     ],
-    "a": [
-       "Internal structure or design implementation is not known to the tester",
-       "Exhaustive input testing is one of its type of testing technique"
-    ]
+    "a": 
+         "4,3"
+     
  },
  {
     "q": "The most important consideration in program testing is the design and creation of effective test cases.",
@@ -815,9 +797,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which technique is used to evaluate anonymous programs in terms of their overall quality, maintainability, extensibility, usability, and clarity?",
@@ -827,26 +809,19 @@ export const data = [
        "Code inspections",
        "Desk checking"
     ],
-    "a": [
+    "a": 
        "Peer ratings"
-    ]
+    
  },
  {
-    "q": "Select the functionalities associated with the business layer. (choose four)",
+    "q": "Select the functionalities associated with the business layer (pick number): 1. User authentication, 2. Data verification, 3. Transaction processing,4. User authorization, 5. Application logging, 6. Data validation",
     "c": [
-       "User authentication",
-       "Data verification",
-       "Transaction processing",
-       "User authorization",
-       "Application logging",
-       "Data validation"
+      "1,2,3,4",
+      "3,4,5,6"
     ],
-    "a": [
-       "Transaction processing",
-       "User authentication",
-       "Application logging",
-       "Data validation"
-    ]
+    "a": 
+          "3,4,5,6"
+      
  },
  {
     "q": "Is the given statements about testing with emulator is true or false:<P>Its underlying hardware might skew performance on real device.",
@@ -854,20 +829,11 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "The business layer models processes, such as user authentication and transactions.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
  {
     "q": "Which step in the software development process defines the exact representation of the program to users?",
     "c": [
@@ -876,9 +842,9 @@ export const data = [
        "Requirements",
        "Program structure design"
     ],
-    "a": [
+    "a": 
        "External specifications"
-    ]
+    
  },
  {
     "q": "What does it mean to raise the reliability of a program?",
@@ -888,10 +854,20 @@ export const data = [
        "To show that a program performs its intended functions",
        "To establish confidence that a program does what it is supposed to do"
     ],
-    "a": [
+    "a": 
        "To find and remove errors"
-    ]
+    
  },
+ {
+   "q": "The business layer models processes, such as user authentication and transactions.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "If you want your application to run without any abnormal terminations, which bug type would be ranked most important to fix?",
     "c": [
@@ -900,9 +876,9 @@ export const data = [
        "Crash",
        "Cosmetic"
     ],
-    "a": [
+    "a": 
        "Crash"
-    ]
+    
  },
  {
     "q": "It checks the input value against a calculated list of numbers divisible only by itself and 1.",
@@ -912,9 +888,9 @@ export const data = [
        "checkArgs()",
        "main()"
     ],
-    "a": [
+    "a": 
        "primeCheck()"
-    ]
+    
  },
  {
     "q": "Is the given statements about inspections and walkthroughs in software testing, true or false.<P>They are code-oriented human testing methods.",
@@ -922,9 +898,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which black-box methodology focuses on finding a subset of all possible inputs with the highest probability of finding the most errors?",
@@ -934,21 +910,19 @@ export const data = [
        "Cause-effect graphing",
        "Boundary value analysis"
     ],
-    "a": [
+    "a": 
        "Equivalence partitioning"
-    ]
+    
  },
  {
-    "q": "Select the statements that match the Backtracking testing method. (choose two)",
+    "q": "Select the statements that match the Backtracking testing method (pick number): 1. It starts from the suspected site, and then traces in opposite direction in entire source code, 2. It is effective in case of small applications, 3. It provides information useful in locating a suspected error.",
     "c": [
-       "It starts from the suspected site, and then traces in opposite direction in entire source code.",
-       "It is effective in case of small applications.",
-       "It provides information useful in locating a suspected error."
+      "1,2",
+      "3,4"
     ],
-    "a": [
-       "It starts from the suspected site, and then traces in opposite direction in entire source code.",
-       "It is effective in case of small applications."
-    ]
+    "a": 
+      "1,2"
+      
  },
  {
     "q": "Select the description that matches the Usability test case.",
@@ -958,21 +932,19 @@ export const data = [
        "Determines how well an end user can interact with the program",
        "Ensures functionality to be implemented in the objectives"
     ],
-    "a": [
+    "a": 
        "Determines how well an end user can interact with the program"
-    ]
+    
  },
  {
-    "q": "Select the statements that match the testing approach for a real device. (choose two)",
+    "q": "Select the statements that match the testing approach for a real device (pick number):  1. Supports multiple devices with a single unit, 2. Tests responsiveness of the application, 3. Skews performance on real device due to underlying hardware, 4. Tests carriers' network responsiveness",
     "c": [
-       "Supports multiple devices with a single unit",
-       "Tests responsiveness of the application",
-       "Skews performance on real device due to underlying hardware",
-       "Tests carriers' network responsiveness"
+      "2,4",
+      "1,3"
     ],
     "a": [
-       "Tests responsiveness of the application",
-       "Tests carriers' network responsiveness"
+      "2,4"
+      
     ]
  },
  {
@@ -982,9 +954,9 @@ export const data = [
        "Verifies that the data is stored correctly and accurately.",
        "Verifies that graphics have the correct resolution and size."
     ],
-    "a": [
+    "a": 
        "Verifies that graphics have the correct resolution and size."
-    ]
+    
  },
  {
     "q": "Debugging by brute force is both efficient and successful.",
@@ -992,9 +964,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Select the description that matches the testing challenge for an internet based application facing a Locales challenge.",
@@ -1003,9 +975,9 @@ export const data = [
        "Includes internationalization issues such as currency conversion",
        "Includes protection of information such as customers' credit card from hackers"
     ],
-    "a": [
+    "a": 
        "Includes internationalization issues such as currency conversion"
-    ]
+    
  },
  {
     "q": "Shows the program state at only one instant of time for error detection and for studying the program dynamics",
@@ -1014,9 +986,9 @@ export const data = [
        "Automated tools",
        "Storage dump"
     ],
-    "a": [
+    "a": 
        "Storage dump"
-    ]
+    
  },
  {
     "q": "What type of module testing includes strategies such as top-down and bottom-up?",
@@ -1026,9 +998,9 @@ export const data = [
        "Big-bang testing",
        "Non-incremental testing"
     ],
-    "a": [
+    "a": 
        "Incremental integration"
-    ]
+    
  },
  {
     "q": "Which form of testing involves everyone in the process through the design, implementation, and execution of the test plan?",
@@ -1038,9 +1010,9 @@ export const data = [
        "Extreme program testing",
        "Agile testing"
     ],
-    "a": [
+    "a": 
        "Agile testing"
-    ]
+    
  },
  {
     "q": "Provides excellent data on software usability and user perceptions about the application",
@@ -1048,9 +1020,9 @@ export const data = [
        "Think-aloud",
        "Eye tracking"
     ],
-    "a": [
+    "a": 
        "Think-aloud"
-    ]
+    
  },
  {
     "q": "Which test type will satisfy the final validation and verification criteria?",
@@ -1060,9 +1032,9 @@ export const data = [
        "Acceptance testing",
        "Packaging and delivery"
     ],
-    "a": [
+    "a": 
        "Acceptance testing"
-    ]
+    
  },
  {
     "q": "Select the correct black box testing type. Shows the connection between a given outcome and all issues that manipulate the outcome.",
@@ -1071,9 +1043,9 @@ export const data = [
        "Cause-effect graphing",
        "Equivalence partitioning"
     ],
-    "a": [
+    "a": 
        "Cause-effect graphing"
-    ]
+    
  },
  {
     "q": "Indicate if the given statements about error-locating principles is true or false.<BR>Involve a mental analysis of the information associated with the error's symptoms.",
@@ -1081,22 +1053,19 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
-    "q": "Select the statements that match the Extreme unit testing type (choose two)",
+    "q": "Select the statements that match the Extreme unit testing type (pick number): 1. All code modules must have primary tests before coding begins, 2. The primary tests must be defined and created before coding the module, 3. Customers creates test cases during the design/planning phases, 4. It determines whether the application meets its functional and usable requirements",
     "c": [
-       "All code modules must have primary tests before coding begins.",
-       "The primary tests must be defined and created before coding the module.",
-       "Customers creates test cases during the design/planning phases.",
-       "It determines whether the application meets its functional and usable requirements."
+      "1,2",
+      "3,4"
     ],
-    "a": [
-       "All code modules must have primary tests before coding begins.",
-       "The primary tests must be defined and created before coding the module."
-    ]
+    "a": 
+       "1,2"
+      
  },
  {
     "q": "Is the given statements about system testing is true or false. It falls under the category of black box testing.",
@@ -1104,9 +1073,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "A testing best practice is for the _____________ to create a unit test.",
@@ -1116,9 +1085,9 @@ export const data = [
        "black-box tester",
        "project manager"
     ],
-    "a": [
+    "a": 
        "developer"
-    ]
+    
  },
  {
     "q": "When is the appropriate time to include the people responsible for quality in the development cycle?",
@@ -1128,9 +1097,9 @@ export const data = [
        "When requirements are formulated",
        "When formal testing begins"
     ],
-    "a": [
+    "a": 
        "As early as possible in the cycle"
-    ]
+    
  },
  {
     "q": "Indicate if the following statement about Jakob Nielsen's usability research is true or false:<P>It depicts that incurring extra cost and complexity of working with many testers for an application check is not required.",
@@ -1138,9 +1107,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which of the following is a key principle of testing?",
@@ -1150,9 +1119,9 @@ export const data = [
        "Formal exit criteria,must be defined",
        "Testing does not need to be planned"
     ],
-    "a": [
+    "a": 
        "Complete testing is not possible"
-    ]
+    
  },
  {
     "q": "Which Agile methodology matches this statement: <P>Uses an iterative and incremental approach, with the goal of delivering software on time",
@@ -1162,9 +1131,9 @@ export const data = [
        "Feature driven development",
        "Velocity tracking"
     ],
-    "a": [
+    "a": 
        "Dynamic system development method"
-    ]
+    
  },
  {
     "q": "Select the description that matches the Facility test case.",
@@ -1174,9 +1143,9 @@ export const data = [
        "Checks if the program meets response and throughput requirements",
        "Determines how well an end user can interact with the program"
     ],
-    "a": [
+    "a": 
        "Ensures functionality to be implemented in the objectives"
-    ]
+    
  },
  {
     "q": "Requirements translate the program user's needs and specify why the program is needed.",
@@ -1184,9 +1153,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "What is the benefit of building a discrete list of defects and ranking them in order of importance?",
@@ -1196,9 +1165,9 @@ export const data = [
        "Allowing for performance issues to be identified and elevated to the top of the list",
        "Giving the team the opportunity to voice their concerns and advocate for their own priorities"
     ],
-    "a": [
+    "a": 
        "Giving the team the opportunity to voice their concerns and advocate for their own priorities"
-    ]
+    
  },
  {
     "q": "Sets breakpoints that causes suspension in the program so that the programmer can examine the current state of the program",
@@ -1207,9 +1176,9 @@ export const data = [
        "Storage dump",
        "Scatter print statements"
     ],
-    "a": [
+    "a": 
        "Automated tools"
-    ]
+    
  },
  {
     "q": "True or False: System validation is an end-to-end process that ensures that the completed and integrated system will operate as needed in the environment for which it was intended.",
@@ -1217,9 +1186,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which area is being tested when we test the failover capabilities of web, application, and database servers?",
@@ -1229,9 +1198,9 @@ export const data = [
        "Performance",
        "System reliability"
     ],
-    "a": [
+    "a": 
        "System reliability"
-    ]
+    
  },
  {
     "q": "The data layer encapsulates data used by the application or that is collected from the end user.",
@@ -1239,20 +1208,11 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "Question 2 :True or False: Testing is the process of executing a program with the intent of finding errors.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+
  {
     "q": "Which of the following is a debugging principle?",
     "c": [
@@ -1261,10 +1221,21 @@ export const data = [
        "Where there is one bug, there is likely to be another",
        "The likelihood of a fix being correct is 100%"
     ],
-    "a": [
+    "a": 
        "Where there is one bug, there is likely to be another"
-    ]
+    
  },
+
+ {
+   "q": "Question 2 :True or False: Testing is the process of executing a program with the intent of finding errors.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Which human error detection process is considered relatively unproductive?",
     "c": [
@@ -1273,10 +1244,20 @@ export const data = [
        "Peer ratings",
        "Desk checking"
     ],
-    "a": [
+    "a": 
        "Desk checking"
-    ]
+    
  },
+ {
+   "q": "Error analysis, focuses on judging the exact location of the error, the developer of code, the preventive measures taken to avoid those errors in future, and so on.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "When verifying the business layer of an application, which test will blast the application with multiple logins and simulate transactions to the point of failure?",
     "c": [
@@ -1285,9 +1266,9 @@ export const data = [
        "Data validation",
        "Transactional testing"
     ],
-    "a": [
+    "a": 
        "Performance testing"
-    ]
+    
  },
  {
     "q": "Is the following statement about mobile testing categories, true or false:<P>Device interaction: Ensures that application does not consume too much memory",
@@ -1295,9 +1276,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "In addition to finding errors, what else would a black-box tester look for when testing a program?",
@@ -1307,9 +1288,9 @@ export const data = [
        "Infrastructure issues",
        "Data issues"
     ],
-    "a": [
+    "a": 
        "Usability issues"
-    ]
+    
  },
  {
     "q": "Indicate if the given statements about agile testing is true or false.<P>It works well with extreme programming methodology whereby developers create unit tests and then the software.",
@@ -1322,17 +1303,14 @@ export const data = [
     ]
  },
  {
-    "q": "Select the descriptions that match Peer Ratings",
+    "q": "Select the descriptions that match Peer Ratings (pick number): 1. Follows undisciplined process of testing and finding errors, 2. Selects a programmer to serve as the administrator of a process, 3. Evaluates anonymous programs for their overall quality, maintainability, and so on, 4. Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs",
     "c": [
-       "Follows undisciplined process of testing and finding errors",
-       "Selects a programmer to serve as the administrator of a process",
-       "Evaluates anonymous programs for their overall quality, maintainability, and so on",
-       "Runs counter to testing principle two, which states that people are generally ineffective in testing their own programs"
+      "2,3",
+      "1,3"
     ],
-    "a": [
-       "Evaluates anonymous programs for their overall quality, maintainability, and so on",
-       "Selects a programmer to serve as the administrator of a process"
-    ]
+    "a": 
+       "2,3"
+      
  },
  {
     "q": "Select the description that matches the Performance test case.",
@@ -1342,60 +1320,24 @@ export const data = [
        "Determines how well an end user can interact with the program",
        "Checks if the program meets response and throughput requirements"
     ],
-    "a": [
+    "a": 
        "Checks if the program meets response and throughput requirements"
-    ]
+    
  },
- {
-    "q": "Error analysis, focuses on judging the exact location of the error, the developer of code, the preventive measures taken to avoid those errors in future, and so on.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "True or False: A bug model is based on historical data and planned activities and predicts how many bugs will be found during the project.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "F"
-    ]
- },
+
+
  {
     "q": "Independently testing each internet application layer allows the tester to more easily identify bugs and errors.",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "True or False: A bug model predicts how many bugs you should be tracking at any given time.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "A system test should be performed by the programmer and the organization responsible for developing the program.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "F"
-    ]
- },
+
+
  {
     "q": "Which approach gathers information and comments that can be counted and analyzed across the spectrum of testers?",
     "c": [
@@ -1404,10 +1346,21 @@ export const data = [
        "Remote user testing",
        "Think-aloud process"
     ],
-    "a": [
+    "a": 
        "User questionnaire"
-    ]
+    
  },
+
+ {
+   "q": "A system test should be performed by the programmer and the organization responsible for developing the program.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "Which two core disciplines intersect with business goals during black-box testing?",
     "c": [
@@ -1415,32 +1368,51 @@ export const data = [
        "Quality assurance and development",
        "Quality assurance and Business management"
     ],
-    "a": [
+    "a": 
        "Quality assurance and product management"
-    ]
+    
  },
+
+ {
+   "q": "True or False: A bug model is based on historical data and planned activities and predicts how many bugs will be found during the project.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "______ focuses on testing smaller units of the program first, rather than initially testing the whole program.",
     "c": [
        "Unit testing",
        "Module testing"
     ],
-    "a": [
+    "a": 
        "Module testing"
-    ]
+    
  },
  {
-    "q": "Describe White-box testing",
+   "q": "True or False: A bug model predicts how many bugs you should be tracking at any given time.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
+ {
+    "q": "Describe White-box testing (pick number): 1. Requires programming and implementation knowledge, 2. Exhaustive path testing is one of its type of testing technique, 3. Exhaustive input testing is one of its type of testing technique, 4. Internal structure or design implementation is not known to the tester",
     "c": [
-       "Requires programming and implementation knowledge",
-       "Exhaustive path testing is one of its type of testing technique",
-       "Exhaustive input testing is one of its type of testing technique",
-       "Internal structure or design implementation is not known to the tester"
+      "2,1",
+      "3,1"
     ],
-    "a": [
-       "Exhaustive path testing is one of its type of testing technique",
-       "Requires programming and implementation knowledge"
-    ]
+    "a": 
+      "2,1"
+     
+      
  },
  {
     "q": "Is the following statement about the specifications for a debugging command, true or false. Lowercase letters represent operand values that are to be substituted.",
@@ -1448,9 +1420,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which type of testing combines one module with a set of previously tested modules before it is tested?",
@@ -1460,10 +1432,20 @@ export const data = [
        "Incremental testing",
        "Big-bang testing"
     ],
-    "a": [
+    "a": 
        "Incremental testing"
-    ]
+    
  },
+ {
+   "q": "The presentation layer provides the user interface (or graphical user interface whichever is applicable",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Which testing challenge category is concerned with overcoming location-based obstacles?",
     "c": [
@@ -1472,42 +1454,32 @@ export const data = [
        "Mobile device diversity",
        "Scripting"
     ],
-    "a": [
+    "a": 
        "Carrier network infrastructure"
-    ]
+    
  },
- {
-    "q": "The presentation layer provides the user interface (or graphical user interface whichever is applicable",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+
  {
     "q": "Is the given statements about system testing is true or false. It is a process of testing the functions of the complete system or program.",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
-    "q": "Select the statements that match Bottom-up testing. (choose two)",
+    "q": "Select the statements that match Bottom-up testing (pick number) 1 .Creates test conditions and concludes test results easily, 2. Finds difficulty in test case representation in stubs, before the I/O function addition, 3. Conducts testing from sub module to main module, 4. Conducts testing from main module to sub module",
     "c": [
-       "Creates test conditions and concludes test results easily",
-       "Finds difficulty in test case representation in stubs, before the I/O function addition",
-       "Conducts testing from sub module to main module",
-       "Conducts testing from main module to sub module"
+     
+       "3,1",
+       "1,2"
     ],
-    "a": [
-       "Conducts testing from sub module to main module",
-       "Creates test conditions and concludes test results easily"
-    ]
+    "a": 
+       "3,1"
+     
+    
  },
  {
     "q": "Select the description that matches the e-commerce architecture tier for tier 2:",
@@ -1516,9 +1488,9 @@ export const data = [
        "Runs the software to model user business processes",
        "Focuses on storing and retrieving data from the data source"
     ],
-    "a": [
+    "a": 
        "Runs the software to model user business processes"
-    ]
+    
  },
  {
     "q": "Debugging is a two-step process that begins with determination of the nature and location of the suspected error and then fixing it.",
@@ -1526,9 +1498,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which agile methodology is an iterative and incremental project management approach that supports many other agile methodologies?",
@@ -1538,10 +1510,20 @@ export const data = [
        "Open Unified Process",
        "Scrum"
     ],
-    "a": [
+    "a": 
        "Scrum"
-    ]
+    
  },
+ {
+   "q": "Diversity devices: Contains many web browsers, run-time versions of Java or other languages, and so on",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "It checks whether the parameter supplied causes the method to return an incorrect Boolean value.",
     "c": [
@@ -1550,9 +1532,9 @@ export const data = [
        "primeCheck()",
        "checkArgs()"
     ],
-    "a": [
+    "a": 
        "assertFalse()"
-    ]
+    
  },
  {
     "q": "Indicate if the given statements about agile testing is true or false.<P>It engages the customer as early as possible and throughout the development cycle.",
@@ -1560,20 +1542,11 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "Diversity devices: Contains many web browsers, run-time versions of Java or other languages, and so on",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
  {
     "q": "Which test category verifies that the application responds appropriately to a weak signal?",
     "c": [
@@ -1582,9 +1555,9 @@ export const data = [
        "Install/uninstall",
        "Key mappings"
     ],
-    "a": [
+    "a": 
        "Network infrastructure"
-    ]
+    
  },
  {
     "q": "Indicate if the given statements about error-locating principles is true or false.<P>Turn your attention to something else if you're trying from a very long time to solve a problem but failing continuously.",
@@ -1592,23 +1565,22 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
-    "q": "Select the components of a test case. (choose two)",
+    "q": "Select the components of a test case (pick number): 1. A description of data processing information, 2. A description of the correct output of the program for that set of input data, 3. A description of the input data to the program, 4. A description of the type of testing technique used",
     "c": [
-       "A description of data processing information",
-       "A description of the correct output of the program for that set of input data",
-       "A description of the input data to the program",
-       "A description of the type of testing technique used"
+      
+       "2,3",
+       "1,3"
     ],
-    "a": [
-       "A description of the correct output of the program for that set of input data",
-       "A description of the input data to the program"
-    ]
- },
+    "a": 
+    
+       "2,3"
+     
+    },
  {
     "q": "What is being verified when testing the business tier?",
     "c": [
@@ -1617,9 +1589,9 @@ export const data = [
        "That transactions are completed properly",
        "That graphics are the correct size and resolution"
     ],
-    "a": [
+    "a": 
        "That transactions are completed properly"
-    ]
+    
  },
  {
     "q": "Each test-case design methodology is a particular set of useful test cases, and each one by itself is a thorough set of test cases.",
@@ -1627,9 +1599,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Which logic coverage test will test all possible combinations of condition outcomes in each decision and all points of entry at least once?",
@@ -1639,9 +1611,9 @@ export const data = [
        "Statement coverage",
        "Multiple-condition coverage"
     ],
-    "a": [
+    "a": 
        "Multiple-condition coverage"
-    ]
+    
  },
  {
     "q": "Occurs when a variable has an unset or uninitialized value",
@@ -1652,9 +1624,9 @@ export const data = [
        "Data declaration",
        "Input/Output"
     ],
-    "a": [
+    "a": 
        "Data reference"
-    ]
+    
  },
  {
     "q": "What testing types would you conduct if you wanted to make sure (a) the website still performs and functions appropriately with the new code in place, and (b) the system can handle the additional user traffic and page loading needs?",
@@ -1664,9 +1636,9 @@ export const data = [
        "Acceptance testing",
        "Regression and performance testing"
     ],
-    "a": [
+    "a": 
        "Regression and performance testing"
-    ]
+    
  },
  {
     "q": "Is the given statements about testing with emulator is true or false:<P>It is efficient in identifying the nuances and bugs of each device.",
@@ -1674,30 +1646,12 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
- {
-    "q": "Software development is the process of moving from the conceptual to the concrete.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "In a walkthrough the majority of program testing is conducted by the author of the program.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "F"
-    ]
- },
+ 
+
  {
     "q": "Which category on the inspection error checklist checks if files are explicitly declared and their attributes are correct?",
     "c": [
@@ -1706,10 +1660,20 @@ export const data = [
        "Interface errors",
        "Input/Output errors"
     ],
-    "a": [
+    "a": 
        "Input/Output errors"
-    ]
+    
  },
+ {
+   "q": "In a walkthrough the majority of program testing is conducted by the author of the program.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "What can a developer employ to identify and resolve code quality issues?",
     "c": [
@@ -1718,9 +1682,9 @@ export const data = [
        "Code-level tools",
        "Bug tracking systems"
     ],
-    "a": [
+    "a": 
        "Code-level tools"
-    ]
+    
  },
  {
     "q": "True or False: A close working partnership between IT and QA can result in greater efficiencies of process.",
@@ -1728,20 +1692,11 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "Installation and maintenance: Comprises of patching, upgrading, and so on",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
  {
     "q": "Select the correct black box testing type. Tests extreme ends or boundaries between partitions of the input values.",
     "c": [
@@ -1749,19 +1704,22 @@ export const data = [
        "Cause-effect graphing",
        "Equivalence partitioning"
     ],
-    "a": [
+    "a": 
        "Boundary value analysis"
-    ]
+    
  },
+
+
+
  {
     "q": "Indicate if the following statement about Jakob Nielsen's usability research is true or false:<P>It cautions that the precise number of testers depends only on economic considerations by the user.",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "What does agile testing rely on in order to facilitate the timely feedback needed for rapid development?",
@@ -1771,10 +1729,21 @@ export const data = [
        "Small teams of developers",
        "Extreme Programming"
     ],
-    "a": [
+    "a": 
        "Automated testing"
-    ]
+    
  },
+
+ {
+   "q": "Installation and maintenance: Comprises of patching, upgrading, and so on",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "_____ testing involves testing random users for a software with a general target market.",
     "c": [
@@ -1782,9 +1751,9 @@ export const data = [
        "Hallway intercept",
        "Remote usability"
     ],
-    "a": [
+    "a": 
        "Hallway intercept"
-    ]
+    
  },
  {
     "q": "True or False: Process improvement helps software development build and retain product and service quality.",
@@ -1792,9 +1761,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "What is the main consideration for a usability test?",
@@ -1804,10 +1773,23 @@ export const data = [
        "The program has no reported issues",
        "The program passes all module testing"
     ],
-    "a": [
+    "a": 
        "The program performs according to its specifications"
-    ]
+    
  },
+
+ {
+   "q": "Software development is the process of moving from the conceptual to the concrete.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
+
+
  {
     "q": "Select the description that matches the testing challenge for an internet based application facing a business environment challenge.",
     "c": [
@@ -1815,9 +1797,9 @@ export const data = [
        "Includes internationalization issues such as currency conversion",
        "Includes cost related issues and tracking customer profiles"
     ],
-    "a": [
+    "a": 
        "Includes cost related issues and tracking customer profiles"
-    ]
+    
  },
  {
     "q": "Is the following statement true or false.<P>Network infrastructure: Verifies that the application responds appropriately to weak signals",
@@ -1825,9 +1807,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which agile methodology includes the concept of collective ownership of the code?",
@@ -1837,9 +1819,9 @@ export const data = [
        "Scrum",
        "Open Unified Process"
     ],
-    "a": [
+    "a": 
        "Extreme Programming"
-    ]
+    
  },
  {
     "q": "What is a visual definition of how you will prioritize bugs as they are discovered?",
@@ -1849,9 +1831,9 @@ export const data = [
        "A matrix of severity versus stakeholder concerns",
        "A matrix of impacts versus severity"
     ],
-    "a": [
+    "a": 
        "A matrix of impacts versus severity"
-    ]
+    
  },
  {
     "q": "In a mobile environment, which term is used to describe something that has the capability to run a network-based application over a cellular or satellite data link?",
@@ -1861,40 +1843,29 @@ export const data = [
        "Device constraint",
        "Mobile device"
     ],
-    "a": [
+    "a": 
        "Mobile device"
-    ]
+    
  },
  {
-    "q": "Select the descriptions that match Incremental testing (choose two)",
+    "q": "Select the descriptions that match Incremental testing (pick number) 1. Less machine time is involved, 2. Incorrect assumption error among modules is detected earlier, 3. Every new module is first combined with already tested module sets, 4. Modules are tested independently and then combined to form a program",
     "c": [
-       "Less machine time is involved",
-       "Incorrect assumption error among modules is detected earlier",
-       "Every new module is first combined with already tested module sets",
-       "Modules are tested independently and then combined to form a program"
+      "1,2",
+      "2,3"
     ],
-    "a": [
-       "Incorrect assumption error among modules is detected earlier",
-       "Every new module is first combined with already tested module sets"
-    ]
+    "a": 
+      "2,3"
+      
  },
  {
-    "q": "Select the expected participants of a walkthrough team. (choose five)",
+    "q": "Select the expected participants of a walkthrough team (pick number): 1. Programming-language expert, 2. Highly experienced programmer, 3. Project quality analyst, 4. Person who will eventually maintain the program, 5. New programmer, 6. Someone from a different project",
     "c": [
-       "Programming-language expert",
-       "Highly experienced programmer",
-       "Project quality analyst",
-       "Person who will eventually maintain the program",
-       "New programmer",
-       "Someone from a different project"
+      "1,2,4,5,6",
+      "1,2,3,4,5"
     ],
-    "a": [
-       "Programming-language expert",
-       "Highly experienced programmer",
-       "Person who will eventually maintain the program",
-       "New programmer",
-       "Someone from a different project"
-    ]
+    "a": 
+       "1,2,4,5,6"
+          
  },
  {
     "q": "Who should create automated unit tests?",
@@ -1904,9 +1875,9 @@ export const data = [
        "White-box tester",
        "Program developer"
     ],
-    "a": [
+    "a": 
        "Program developer"
-    ]
+    
  },
  {
     "q": "Is the given statements about system testing is true or false. It involves testing of the user's experience with the application.",
@@ -1914,9 +1885,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "States creation of enough test cases that each branch direction must be traversed at least once",
@@ -1927,9 +1898,9 @@ export const data = [
        "Statement",
        "Condition"
     ],
-    "a": [
+    "a": 
        "Decision"
-    ]
+    
  },
  {
     "q": "It asserts that the input value is a positive integer.",
@@ -1939,39 +1910,31 @@ export const data = [
        "assertFalse()",
        "main()"
     ],
-    "a": [
+    "a": 
        "checkArgs()"
-    ]
+    
  },
  {
-    "q": "Select the descriptions that match the Inspection error detection agenda (choose two)",
+    "q": "Select the descriptions that match the Inspection error detection agenda (pick number): 1. Focuses on quality improvement rather than attacking the programmer, 2. Investigates program with respect to checklist of historically common programming errors, 3. Focuses on error discovery, not error correction, 4. Recommends that the inspection results must be kept confidential",
     "c": [
-       "Focuses on quality improvement rather than attacking the programmer",
-       "Investigates program with respect to checklist of historically common programming errors",
-       "Focuses on error discovery, not error correction",
-       "Recommends that the inspection results must be kept confidential"
+     
+
+       "3,2",
+       "1,2"
     ],
-    "a": [
-       "Focuses on error discovery, not error correction",
-       "Investigates program with respect to checklist of historically common programming errors"
-    ]
+    "a": 
+         "3,2"
+    
  },
  {
-    "q": "Select the drawbacks of the brute-force scattering method. (choose four)",
+    "q": "Select the drawbacks of the brute-force scattering method (pick number): 1. It produces a massive amount of data to be analyzed, 2. It encourages the user to think about the problem, 3. It is feasible on operating systems and process control programs, 4. It requires the user to change the program which can introduce new errors, 5. It increases the cost when used in large programs, 6. It is based on a hit-or-miss technique.",
     "c": [
-       "It produces a massive amount of data to be analyzed.",
-       "It encourages the user to think about the problem.",
-       "It is feasible on operating systems and process control programs.",
-       "It requires the user to change the program which can introduce new errors.",
-       "It increases the cost when used in large programs.",
-       "It is based on a hit-or-miss technique."
+      "1,4,5,6",
+      "1,2,3,4"
     ],
-    "a": [
-       "It produces a massive amount of data to be analyzed.",
-       "It requires the user to change the program which can introduce new errors.",
-       "It increases the cost when used in large programs.",
-       "It is based on a hit-or-miss technique."
-    ]
+    "a": 
+      "1,4,5,6"
+   
  },
  {
     "q": "Reflects the thought processes of an observer by analyzing the time an observer pauses on certain visual elements",
@@ -1979,9 +1942,9 @@ export const data = [
        "Eye tracking",
        "Think-aloud"
     ],
-    "a": [
+    "a": 
        "Eye tracking"
-    ]
+    
  },
  {
     "q": "Which type of testing includes the rule: \"All code modules must have unit tests before coding begins\"?",
@@ -1991,9 +1954,9 @@ export const data = [
        "Open Unified Process",
        "Extreme unit testing"
     ],
-    "a": [
+    "a": 
        "Extreme unit testing"
-    ]
+    
  },
  {
     "q": "How is a solid IT-QA relationship fundamental to business success?",
@@ -2003,9 +1966,9 @@ export const data = [
        "It can lower cost by fixing issues early in the process",
        "It finds and fixes bugs before systems are delivered"
     ],
-    "a": [
+    "a": 
        "It will help deliver compliant business-enabling systems"
-    ]
+    
  },
  {
     "q": "Which Agile methodology matches this statement:<P>Attempts to measure the rate at which the development process is moving",
@@ -2015,10 +1978,23 @@ export const data = [
        "Velocity tracking",
        "Dynamic system development method"
     ],
-    "a": [
+    "a": 
        "Velocity tracking"
-    ]
+    
  },
+
+ {
+   "q": "Connectivity: Includes device provisioning, network latency, service reliability, and so on",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
+
+
  {
     "q": "Which role records all errors found in a code walkthrough?",
     "c": [
@@ -2027,47 +2003,32 @@ export const data = [
        "Moderator",
        "Secretary"
     ],
-    "a": [
+    "a": 
        "Secretary"
-    ]
+    
  },
+
  {
     "q": "Is the following statement true or false: <P>Exit: Confirms that the application meets design specifications when the user initiates a shutdown of device",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
+ 
  {
-    "q": "Connectivity: Includes device provisioning, network latency, service reliability, and so on",
+    "q": "Select the duties of an Inspection Team moderator (pick number): 1. Lead the session, 2. Ensure that the errors are subsequently corrected, 3. Distribute materials for the inspection session, 4. Record all errors found, 5. Schedule the inspection session, 6. Make changes in the session.",
     "c": [
-       "T",
-       "F"
+      "1,4,5,3,6",
+      "1,2,3,4,5"
     ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "Select the duties of an Inspection Team moderator (choose five)",
-    "c": [
-       "Lead the session.",
-       "Ensure that the errors are subsequently corrected.",
-       "Distribute materials for the inspection session.",
-       "Record all errors found.",
-       "Schedule the inspection session.",
-       "Make changes in the session."
-    ],
-    "a": [
-       "Lead the session.",
-       "Ensure that the errors are subsequently corrected.",
-       "Distribute materials for the inspection session.",
-       "Record all errors found.",
-       "Schedule the inspection session."
-    ]
+    "a": 
+      "1,2,3,4,5"
+   
+    
  },
  {
     "q": "_____ testing tests the interactive software parts for reasonable selection and user feedback.",
@@ -2076,19 +2037,31 @@ export const data = [
        "Usability",
        "Module"
     ],
-    "a": [
+    "a": 
        "Component"
-    ]
+    
  },
+ {
+   "q": "Is the following statement about the specifications for a debugging command, true or false. Underlined operands represent the values used when the operand is omitted.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
+
+
  {
     "q": "Is the following question about inspections and walkthroughs in software testing, true or false.",
     "c": [
        "True: They are effective in detecting high-level design errors.",
        "False: They are effective in detecting high-level design errors."
     ],
-    "a": [
+    "a": 
       "False: They are effective in detecting high-level design errors."
-    ]
+    
  },
  {
     "q": "What is the intent of test automation?",
@@ -2098,10 +2071,20 @@ export const data = [
        "To automatically record issues to be fixed",
        "To test as many pieces of functionality as possible"
     ],
-    "a": [
+    "a": 
        "To optimize your process and make testing more efficient"
-    ]
+    
  },
+ {
+   "q": "True or False: Bugs that are found and fixed early in the process will cost more to fix when compared to finding them later and fixing all the bugs at once.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "What is an advantage of bottom-up testing?",
     "c": [
@@ -2110,9 +2093,9 @@ export const data = [
        "Driver modules are produced",
        "Observation of test results is easier"
     ],
-    "a": [
+    "a": 
        "Observation of test results is easier"
-    ]
+    
  },
  {
     "q": "Module testing is a process of testing the individual subprograms, subroutines, classes, or procedures in a program.",
@@ -2120,9 +2103,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "What makes a test run successful?",
@@ -2132,9 +2115,9 @@ export const data = [
        "A test that demonstrates all functionality of the program",
        "A test that causes the program to produce the correct result"
     ],
-    "a": [
+    "a": 
        "A test that discovers a new error"
-    ]
+    
  },
  {
     "q": "Is the following question about inspections and walkthroughs in software testing, true or false.<P>They are code-oriented human testing methods.",
@@ -2142,20 +2125,11 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "Device constraints: Includes screen, data cache sizes, memory limit, and so on",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
  {
     "q": "What can be achieved with a process improvement initiative based on the CMMI?",
     "c": [
@@ -2164,9 +2138,9 @@ export const data = [
        "A measurable business result",
        "A way to evaluate customers"
     ],
-    "a": [
+    "a": 
        "A measurable business result"
-    ]
+    
  },
  {
     "q": "Selecting random users\u2014persons who are not familiar with the program's specification, or perhaps even the industry or market for which it is intended\u2014can uncover errors or user interface problems that might not be found by experts.",
@@ -2174,60 +2148,13 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
- {
-    "q": "Is the following statement about the specifications for a debugging command, true or false. Underlined operands represent the values used when the operand is omitted.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "True or False: Bugs that are found and fixed early in the process will cost more to fix when compared to finding them later and fixing all the bugs at once.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "F"
-    ]
- },
- {
-    "q": "When verifying an internet application, testing browser compatibility is a significant challenge.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "Is the given statements about testing with emulator is true or false: <P> It allows inexpensive and quick functional testing of an application.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
- {
-    "q": "Is the following question about inspections and walkthroughs in software testing, true or false.<P>They are an improvement over the older desk-checking process.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+
+ 
+
  {
     "q": "Identify the testing processes that make up the Integration test part of the development phase",
     "c": [
@@ -2236,23 +2163,43 @@ export const data = [
        "Code: It produces the code for the required program.",
        "External specification: It defines the exact representation of the program to users."
     ],
-    "a": [
+    "a": 
        "System design: It lays down the design principles of the system."
-    ]
+    
  },
  {
-    "q": "Select the descriptions that match the Human error detection agenda (choose two)",
+   "q": "Is the following question about inspections and walkthroughs in software testing, true or false.<P>They are an improvement over the older desk-checking process.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
+ {
+    "q": "Select the descriptions that match the Human error detection agenda (pick the number): 1. Focuses on quality improvement rather than attacking the programmer, 2. Investigates program with respect to checklist of historically common programming errors, 3. Focuses on error discovery, not error correction, 4. Recommends that the inspection results must be kept confidential",
     "c": [
-       "Focuses on quality improvement rather than attacking the programmer",
-       "Investigates program with respect to checklist of historically common programming errors",
-       "Focuses on error discovery, not error correction",
-       "Recommends that the inspection results must be kept confidential"
+      "1,2",
+      "3,4",
+      "4,3"
+
+     
     ],
-    "a": [
-       "Recommends that the inspection results must be kept confidential",
-       "Focuses on quality improvement rather than attacking the programmer"
-    ]
+    "a": 
+       "4,3"   
+    
  },
+ {
+   "q": "Is the given statements about testing with emulator is true or false: <P> It allows inexpensive and quick functional testing of an application.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Select the description that matches the Volume test case.",
     "c": [
@@ -2261,9 +2208,9 @@ export const data = [
        "Checks if the program meets response and throughput requirements",
        "Determines how well an end user can interact with the program"
     ],
-    "a": [
+    "a": 
        "Subjects the program to heavy loads of data"
-    ]
+    
  },
  {
     "q": "Is the given statements about system testing is true or false. It focuses on translation errors made during the designing of external specification.",
@@ -2271,9 +2218,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "What plays a major role in whether users accept or reject an application?",
@@ -2283,10 +2230,22 @@ export const data = [
        "Database operations that meet performance goals",
        "Consistent and user-friendly operations"
     ],
-    "a": [
+    "a": 
        "Fonts, colors, and graphics"
-    ]
+    
  },
+ {
+   "q": "When testing a mobile application on a real device, manual testing is unavoidable.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
+
+
  {
     "q": "Which element of a bug record will provide the programmer with a visual representation of the problem?",
     "c": [
@@ -2295,9 +2254,9 @@ export const data = [
        "A screenshot",
        "A brief and accurate description"
     ],
-    "a": [
+    "a": 
        "A screenshot"
-    ]
+    
  },
  {
     "q": "Indicate if the following statement about Jakob Nielsen's usability research is true or false:<P>It states that it is impossible to detect all of the usability errors in the application.",
@@ -2305,9 +2264,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which agile method is being used when the programmer designs an application to pass the unit tests, therefore increasing the probability that it will meet specifications?",
@@ -2317,9 +2276,9 @@ export const data = [
        "Scrum",
        "Extreme Programming"
     ],
-    "a": [
+    "a": 
        "Extreme Programming"
-    ]
+    
  },
  {
     "q": "Indicate if given statement about presentation layer testing is true or false: <P> It comprises of two major areas, namely content testing and user environment.",
@@ -2327,9 +2286,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Select the correct black box testing type. Divides the input domain of a program into a finite number of classes and then identifies the test cases",
@@ -2338,29 +2297,20 @@ export const data = [
        "Cause-effect graphing",
        "Boundary value analysis"
     ],
-    "a": [
+    "a": 
        "Equivalence partitioning"
-    ]
+    
  },
- {
-    "q": "When testing a mobile application on a real device, manual testing is unavoidable.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
  {
     "q": "True or False: Studies have shown that defects found and fixed in the requirements phase carry the highest cost.",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "What information on the bug record establishes why the result was flagged as a problem?",
@@ -2370,10 +2320,20 @@ export const data = [
        "Steps to take to repeat the problem",
        "The problem description"
     ],
-    "a": [
+    "a": 
        "What was expected vs. what actually happened"
-    ]
+    
  },
+ {
+   "q": "When verifying an internet application, testing browser compatibility is a significant challenge.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Which type of review is considered a walkthrough?",
     "c": [
@@ -2382,9 +2342,9 @@ export const data = [
        "Peer review",
        "Milestone review"
     ],
-    "a": [
+    "a": 
        "Peer review"
-    ]
+    
  },
  {
     "q": "The most effective method of debugging involves a mental process.",
@@ -2392,9 +2352,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which Agile methodology matches this statement:<P>Uses industry best practices, such as regular builds, domain object modeling, and feature teams",
@@ -2404,9 +2364,9 @@ export const data = [
        "Velocity tracking",
        "Dynamic system development method"
     ],
-    "a": [
+    "a": 
        "Feature driven development"
-    ]
+    
  },
  {
     "q": "Arises when a variable is not assigned with correct length or data type",
@@ -2417,10 +2377,20 @@ export const data = [
        "Data declaration",
        "Input/Output"
     ],
-    "a": [
+    "a": 
        "Data declaration"
-    ]
+    
  },
+ {
+   "q": "Device constraints: Includes screen, data cache sizes, memory limit, and so on",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "What does the specification for a module typically define?",
     "c": [
@@ -2429,9 +2399,9 @@ export const data = [
        "Multi-condition criterion",
        "Coverage criterion"
     ],
-    "a": [
+    "a": 
        "Input/Output parameters"
-    ]
+    
  },
  {
     "q": "Ensures the highest level of software efficiency in the user input data",
@@ -2439,9 +2409,9 @@ export const data = [
        "Think-aloud",
        "Eye tracking"
     ],
-    "a": [
+    "a": 
        "Eye tracking"
-    ]
+    
  },
  {
     "q": "What type of test is a module test?",
@@ -2451,9 +2421,9 @@ export const data = [
        "Regression",
        "Black-box"
     ],
-    "a": [
+    "a": 
        "White-box"
-    ]
+    
  },
  {
     "q": "Identify the testing processes that make up the Installation test part of the development phase",
@@ -2463,10 +2433,20 @@ export const data = [
        "Requirement: It specifies the cause of the program.",
        "Code: It produces the code for the required program."
     ],
-    "a": [
+    "a": 
        "Code: It produces the code for the required program."
-    ]
+    
  },
+ {
+   "q": "Cause-effect graphing is a systematic method of generating test cases representing an ad hoc set of conditions.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "Which software testing principle states that a programmer may subconsciously avoid finding errors for fear of retribution from peers, a supervisor, a client, or the owner of the program or system being developed?",
     "c": [
@@ -2475,9 +2455,9 @@ export const data = [
        "A programmer should avoid attempting to test his or her own program.",
        "A programming organization should not test its own programs."
     ],
-    "a": [
+    "a": 
        "A programmer should avoid attempting to test his or her own program."
-    ]
+    
  },
  {
     "q": "Is the following statement about the specifications for a debugging command, true or false. Capital letters represent operands operations.",
@@ -2485,9 +2465,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "F"
-    ]
+    
  },
  {
     "q": "Based on the work of Jakob Nielsen, how many testers will collectively find 83 percent of errors during a usability test?",
@@ -2497,29 +2477,20 @@ export const data = [
        "1",
        "10"
     ],
-    "a": [
+    "a": 
        "5"
-    ]
+    
  },
- {
-    "q": "Cause-effect graphing is a systematic method of generating test cases representing an ad hoc set of conditions.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "F"
-    ]
- },
+ 
  {
     "q": "Indicate if given statement about presentation layer testing is true or false<P>It tests the website architecture to find navigational and structural errors.",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Which debugging method moves from the particulars of a situation to the larger picture?",
@@ -2529,9 +2500,9 @@ export const data = [
        "Debugging by deduction",
        "Brute-force debugging"
     ],
-    "a": [
+    "a": 
        "Debugging by induction"
-    ]
+    
  },
  {
     "q": "Indicate if the given statements about agile testing is true or false.<P>It involves everyone in the process through design, implementation, and execution of the test plans.",
@@ -2539,9 +2510,9 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "Select the correct description of the appropriate testing tiers for the data layer",
@@ -2550,20 +2521,41 @@ export const data = [
        "Verifies that the data is stored correctly and accurately.",
        "Ensures that data is collected correctly."
     ],
-    "a": [
+    "a": 
        "Verifies that the data is stored correctly and accurately."
-    ]
+    
  },
+
+ {
+   "q": "User-based testing requires the user to know the inner workings of a program.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "F"
+   
+},
  {
     "q": "Involves users speaking out their ideas and observations while they are performing the assigned software testing tasks",
     "c": [
        "Think-aloud",
        "Eye tracking"
     ],
-    "a": [
+    "a": 
        "Think-aloud"
-    ]
+    
  },
+ {
+   "q": "Is the following question about inspections and walkthroughs in software testing, true or false.<P>They involve a team of people reading or visually inspecting a program.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Why is a code inspection more effective than a desk-checking process?",
     "c": [
@@ -2572,82 +2564,66 @@ export const data = [
        "Because the author of the program is personally checking the code",
        "Because people other than the author are involved in the process"
     ],
-    "a": [
+    "a": 
        "Because people other than the author are involved in the process"
-    ]
+    
  },
- {
-    "q": "User-based testing requires the user to know the inner workings of a program.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "F"
-    ]
- },
+
  {
     "q": "Is the following statement about the specifications for a debugging command, true or false. Brackets represent alternative optional operands.",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
-    "q": "Select the descriptions that match Non-incremental testing (choose two)",
+    "q": "Select the descriptions that match Non-incremental testing (pick number): 1. Every new module is first combined with already tested module sets, 2. Incorrect assumption error among modules is detected earlier, 3. Less machine time is involved, 4. Modules are tested independently and then combined to form a program",
     "c": [
-       "Every new module is first combined with already tested module sets",
-       "Incorrect assumption error among modules is detected earlier",
-       "Less machine time is involved",
-       "Modules are tested independently and then combined to form a program"
+      "1,2",
+      "3,4",
+      "2,3"
     ],
-    "a": [
-       "Less machine time is involved",
-       "Modules are tested independently and then combined to form a program"
-    ]
+    "a": 
+       "3,4"
+       
  },
- {
-    "q": "Is the following question about inspections and walkthroughs in software testing, true or false.<P>They involve a team of people reading or visually inspecting a program.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+
  {
     "q": "Is the following statement about mobile testing categories, true or false: Low memory: Ensures application stability in low storage situation",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
-    "q": "Select the steps in the inductive debugging process (order the steps)",
+    "q": "Select the steps in the inductive debugging process (order the steps): 1. Devise a hypothesis, 2. Study their relationships, 3. Locate the pertinent data, 4. Prove the hypothesis, 5. Organize the data, 6. Fix the error",
     "c": [
-       "Devise a hypothesis",
-       "Study their relationships",
-       "Locate the pertinent data",
-       "Prove the hypothesis",
-       "Organize the data",
-       "Fix the error"
+      "1,2,3,4,5,6",
+      "3,5,2,1,4,6"
+     
     ],
-    "a": [
-       "Locate the pertinent data",
-       "Organize the data",
-       "Study their relationships",
-       "Devise a hypothesis",
-       "Prove the hypothesis",
-       "Fix the error"
-    ]
+    "a": 
+      "3,5,2,1,4,6",
+     
+    
  },
+
+ {
+   "q": "Usability testing is a black-box testing techniques.",
+   "c": [
+      "T",
+      "F"
+   ],
+   "a": 
+      "T"
+   
+},
  {
     "q": "Identify the testing processes that make up the Acceptance test part of the development phase",
     "c": [
@@ -2656,29 +2632,20 @@ export const data = [
        "System design: It lays down the design principles of the system.",
        "Code: It produces the code for the required program."
     ],
-    "a": [
+    "a": 
        "Requirement: It specifies the cause of the program."
-    ]
+    
  },
- {
-    "q": "Usability testing is a black-box testing techniques.",
-    "c": [
-       "T",
-       "F"
-    ],
-    "a": [
-       "T"
-    ]
- },
+ 
  {
     "q": "Acceptance testing is the process of comparing the program to its initial requirements and the current needs of its end users",
     "c": [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
     "q": "When is a good time to start automation testing?",
@@ -2688,9 +2655,9 @@ export const data = [
        "When you are confident that you do not want anything to change in the code",
        "When the scheduled milestone for automation testing is reached"
     ],
-    "a": [
+    "a": 
        "When you are confident that you do not want anything to change in the code"
-    ]
+    
  },
  {
     "q": "How is quality defined in Extreme Programming?",
@@ -2700,9 +2667,9 @@ export const data = [
        "Good communication between developers and testers",
        "Meeting design specifications and customer expectations"
     ],
-    "a": [
+    "a": 
        "Meeting design specifications and customer expectations"
-    ]
+    
  },
  {
     "q": "True or False: Providing clearly defined goals for each step in the development cycle is a quality best practice.",
@@ -2710,22 +2677,20 @@ export const data = [
        "T",
        "F"
     ],
-    "a": [
+    "a": 
        "T"
-    ]
+    
  },
  {
-    "q": "Select the statements that match the testing approach for an emulator. (choose two)",
+    "q": "Select the statements that match the testing approach for an emulator (pick the number): 1. Tests carriers' network responsiveness, 2. Skews performance on real device due to underlying hardware, 3. Supports multiple devices with a single unit, 4. Tests responsiveness of the application",
     "c": [
-       "Tests carriers' network responsiveness",
-       "Skews performance on real device due to underlying hardware",
-       "Supports multiple devices with a single unit",
-       "Tests responsiveness of the application"
+      "1,2",
+      "2,3",
+      "3,4"
     ],
-    "a": [
-       "Skews performance on real device due to underlying hardware",
-       "Supports multiple devices with a single unit"
-    ]
+    "a": 
+      "2,3"
+    
  },
  {
     "q": "Which statement matches the performance section of the business layer testing area.",
@@ -2734,26 +2699,20 @@ export const data = [
        "Tests to uncover errors in transaction processing, such as credit card processing, e-mailing verifications, and so on",
        "Tests to detect errors in knowledge collected from customers"
     ],
-    "a": [
+    "a": 
        "Tests whether the application meets documented operational specifications"
-    ]
+    
  },
  {
-    "q": "Select the targets of extreme programming. (choose four)",
+    "q": "Select the targets of extreme programming (pick the number): 1. Implementation of simple designs, 2. Seek project team feedback, 3. Communication between developers and testers, 4. Continuous testing of the code base, 5. Communication between developers and customers, 6. Accommodate specification changes",
     "c": [
-       "Implementation of simple designs",
-       "Seek project team feedback",
-       "Communication between developers and testers",
-       "Continuous testing of the code base",
-       "Communication between developers and customers",
-       "Accommodate specification changes"
+      "1,2,3,4",
+      "1,4,5,6"
     ],
-    "a": [
-       "Implementation of simple designs",
-       "Continuous testing of the code base",
-       "Communication between developers and customers",
-       "Accommodate specification changes"
-    ]
+    "a": 
+       "1,4,5,6"
+      
+    
  },
  {
     "q": "Select the statements that match the Testing debugging method. (choose one)",
@@ -2762,9 +2721,9 @@ export const data = [
        "It is effective in case of small applications.",
        "It provides information useful in locating a suspected error."
     ],
-    "a": [
+    "a": 
        "It provides information useful in locating a suspected error."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about exhaustive path testing is true or false.",
@@ -2772,9 +2731,9 @@ export const data = [
        "True: It states that all the possible paths of control flow are tested through the program.",
        "False: It states that all the possible paths of control flow are tested through the program."
     ],
-    "a": [
+    "a": 
       "True: It states that all the possible paths of control flow are tested through the program."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about exhaustive path testing is true or false.",
@@ -2782,9 +2741,9 @@ export const data = [
        "True: It does not guarantee that a program matches its specification.",
        "False: It does not guarantee that a program matches its specification."
     ],
-    "a": [
+    "a": 
       "True: It does not guarantee that a program matches its specification."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about exhaustive path testing is true or false.",
@@ -2792,9 +2751,9 @@ export const data = [
        "False: It detects the absence of necessary paths within a program, if found missing.",
        "True: It detects the absence of necessary paths within a program, if found missing."
     ],
-    "a": [
+    "a": 
       "False: It detects the absence of necessary paths within a program, if found missing."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about exhaustive path testing is true or false.",
@@ -2802,9 +2761,9 @@ export const data = [
        "False: It is inferior to exhaustive input testing.",
        "True: It is inferior to exhaustive input testing."
     ],
-    "a": [
+    "a": 
       "True: It is inferior to exhaustive input testing."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about usability testing is true or false.",
@@ -2812,9 +2771,9 @@ export const data = [
        "True: It is a black-box testing technique.",
        "False: It is a black-box testing technique."
     ],
-    "a": [
+    "a": 
       "True: It is a black-box testing technique."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about usability testing is true or false.",
@@ -2822,9 +2781,9 @@ export const data = [
        "True: It involves actual users or customers of the product.",
        "False: It involves actual users or customers of the product."
     ],
-    "a": [
+    "a": 
       "True: It involves actual users or customers of the product."
-    ]
+    
  },
  {
     "q": "Indicate if the given statement about usability testing is true or false.",
@@ -2832,9 +2791,9 @@ export const data = [
        "False: It is also called user acceptance testing.",
        "True: It is also called user acceptance testing."
     ],
-    "a": [
+    "a": 
       "False: It is also called user acceptance testing."
-    ]
+    
  }
   
 ];
