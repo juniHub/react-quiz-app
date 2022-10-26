@@ -128,11 +128,11 @@ export default function App() {
             Data source from{" "}
             <a
               className="text-pink-400"
-              href=""
+              href="https://github.com/juniHub/quizsail"
               target="_blank"
               rel="noreferrer"
             >
-              Source Here
+              Data Source Here
             </a>{" "}
           </footer>
         </div>
