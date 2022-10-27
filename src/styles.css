@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 body {
-  background-color: #fef6e4;
+  
   font-family: 'Poppins', sans-serif;
 }
 
@@ -22,7 +22,7 @@ body {
 
 .correctAnswer:after {
   background: #2cb67d;
-  color: #001858;
+  color: #fff;
   visibility: visible;
   position: relative;
   width: 100%;
@@ -38,7 +38,7 @@ body {
 
 .incorrectAnswer:after {
   background: #ef4565;
-  color: #001858;
+  color:#fff;
   visibility: visible;
   position: relative;
   width: 100%;
