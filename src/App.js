@@ -102,6 +102,7 @@ export default function App() {
             <div className="m-2 h-14 border-2 border-black mx-auto text-center">
               <p
                 key={variant.id}
+                                
                 className={`variant ${
                   myAnswer === variant
                     ? myAnswer === data[currentQuestion].a
