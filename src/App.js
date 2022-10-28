@@ -54,7 +54,7 @@ export default function App() {
             points.`}
           </h3>
           <button
-            className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-600 text-pink-400 font-bold hover:bg-gray-800 hover:text-pink-600"
+            className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-400 text-black font-bold hover:bg-black hover:text-white"
             onClick={() => startOver()}
           >
             Start Over
@@ -119,7 +119,7 @@ export default function App() {
 
           {currentQuestion < data.length - 1 && (
             <button
-              className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-600 text-pink-300 font-bold hover:bg-gray-800 hover:text-pink-600"
+              className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-400 text-black font-bold hover:bg-black hover:text-white"
               onClick={() => {
                 setCurrentQuestion(currentQuestion + 1);
                 checkCorrectAnswer();
@@ -132,7 +132,7 @@ export default function App() {
             
           {currentQuestion > 0 && (
             <button
-              className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-200 text-pink-300 font-bold hover:bg-gray-400 hover:text-pink-600"
+              className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-100 text-gray-400 font-bold hover:bg-black hover:text-white"
               onClick={() => {
                 setCurrentQuestion(currentQuestion - 1);
                 checkCorrectAnswer();
@@ -146,7 +146,7 @@ export default function App() {
   
           {currentQuestion === data.length - 1 && (
             <button
-              className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-600 text-pink-300 font-bold hover:bg-gray-800 hover:text-pink-600"
+              className="w-full h-14 mt-2 px-2 rounded-lg bg-gray-400 text-black font-bold hover:bg-black hover:text-white"
               onClick={() => finishHandler()}
             >
               FINISH
