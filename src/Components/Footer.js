@@ -8,7 +8,7 @@ export default function Footer() {
           <footer className="m-4 text-center">
               Made with ReactJS and TailwindCSS by{" "}
               <a
-                className="text-pink-400"
+                className="text-pink-600"
                 href="https://www.juninguyen.tech/"
                 target="_blank"
                 rel="noreferrer"
@@ -18,7 +18,7 @@ export default function Footer() {
               <br/>
               Question and Answer Database from{" "}
               <a
-                className="text-pink-400"
+                className="text-pink-600"
                 href="https://github.com/jmatzen/quizsail"
                 target="_blank"
                 rel="noreferrer"
