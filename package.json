@@ -1,7 +1,7 @@
 {
-  "name": "riddle-quiz-app",
+  "name": "react-quiz-app",
   "version": "1.0.0",
-  "description": "react app riddle quiz",
+  "description": "react quiz app",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
